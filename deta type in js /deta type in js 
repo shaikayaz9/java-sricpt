@@ -1,0 +1,43 @@
+//data type in java script
+//1 strings
+var name = "ayaz";
+var fname = "azzy";
+console.log(name,fname);
+console.log(typeof(fname))
+
+
+//2 number 
+var x = 40;
+var y = 60;
+console.log(x+y);
+console.log(typeof(x))
+
+
+//bolean :-
+var z = true;
+var c = false;
+console.log(c,z);
+console.log(typeof(c));
+
+//undefined
+var tt = undefined;
+console.log(tt);
+console.log(typeof(tt));
+
+//nule
+var b = null;
+console.log(b);
+console.log(typeof(b));
+
+//array
+let a = [1,2,"ayaz",4,5,6];
+console.log(a[0]);
+console.log(a[1])
+console.log(a[2])
+console.log(a[4])
+console.log(a[5])
+
+//array 
+let v = ["apple", "mango", "banana"];
+console.log(v)
+console.log(typeof(v))
