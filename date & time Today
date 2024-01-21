@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">today date & time </h1>
+      <button type="submit" onclick="myfunction20()">click here</button>
+
+<p id="results"></p>
+      <script>
+        function myfunction20(){
+          onclick= document.getElementById("results").innerHTML = Date();
+        }
+        
+      </script>
+  </body>
+</html>
