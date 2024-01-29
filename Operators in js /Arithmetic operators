@@ -1,4 +1,5 @@
-// arithmatic operators.
+console.log("(1):-arithmatic operators."); 
+console.log("list of items:- [+ , - , * , / , % , **, ]");
 
 let a = 5;
 let b = 2;
