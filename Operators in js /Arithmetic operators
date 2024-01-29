@@ -1,0 +1,11 @@
+// arithmatic operators.
+
+let a = 5;
+let b = 2;
+console.log("a = ",a,"& b =", b)
+console.log("[add]            a + b = ",a+b);
+console.log("[sub]            a - b = ",a-b);
+console.log("[div]            a / b = ",a/b);
+console.log("[multi]          a * b = ",a*b);
+console.log("[exponentiation] a ** b = ",a**b);
+console.log("[modulua]        a % b = ",a%b);
