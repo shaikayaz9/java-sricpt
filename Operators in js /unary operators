@@ -1,4 +1,4 @@
-//unary Operator
+console.log("(2):-unary Operator");
 
 let a = 5;
 let b = 2;
