@@ -1,0 +1,8 @@
+console.log("(3):-assignment operators ")
+console.log("list [= , += , -= , *= , %= , **=]  ")
+let a = 5;
+let b = 2;
+
+console.log("let a =",a,"& let b =",b);
+
+console.log("a = a + 4:",a +=4 );
