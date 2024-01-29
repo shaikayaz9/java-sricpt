@@ -9,3 +9,13 @@ console.log("[div]            a / b = ",a/b);
 console.log("[multi]          a * b = ",a*b);
 console.log("[exponentiation] a ** b = ",a**b);
 console.log("[modulua]        a % b = ",a%b);
+
+//unary Operator
+
+let a = 5;
+let b = 2;
+console.log("a = ",a,"& b =", b)
+
+console.log("[increment] a++ = ",a++);
+console.log("[increment]final ans of a = ",a);
+
