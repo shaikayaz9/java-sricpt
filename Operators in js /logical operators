@@ -1,0 +1,22 @@
+console.log("(5):-logic Operator");
+
+console.log("list of items:- [ &&, || , !");
+
+// logic Operator
+console.log("logical and = &&");
+console.log("logical or= ||");
+console.log("logical not= !");
+
+
+let a = 10;
+let b = 4;
+
+console.log("let a =",a,"& let b =",b);
+
+let con1 = a > b; //ture
+let con2 = a > b; // false
+console.log(con1 && con2);
+
+let con3 = a < b; //ture
+let con4 = a < b; // false
+console.log(con3 || con4);
