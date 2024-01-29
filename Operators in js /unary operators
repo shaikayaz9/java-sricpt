@@ -1,0 +1,9 @@
+//unary Operator
+
+let a = 5;
+let b = 2;
+console.log("a = ",a,"& b =", b)
+
+console.log("[increment] a++ = ",a++);
+console.log("[increment]final ans of a = ",a);
+
