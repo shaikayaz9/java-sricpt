@@ -1,9 +1,11 @@
 //odd and even finder:-
-let evenoradd = prompt("Entre your age");
+let num = prompt("Entre your age");
 
-if (evenoradd %= 2){
-	alert("odd")
+if (num %2 === 0){
+	alert(num,"is odd");
+	console.log(num,"is odd")
 }
  else {
-	alert("even")
+	alert(num,"is even");
+	console.log(num,"is even")
 }
