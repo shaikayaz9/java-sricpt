@@ -1,0 +1,11 @@
+// else-if statement
+
+let age = prompt("age ?");
+
+if (age < 18){
+	console.log("junoir");
+} else if (age > 50){
+	console.log("senior");
+} else{
+	console.log("middle")
+}
