@@ -1,0 +1,9 @@
+//odd and even finder:-
+let evenoradd = prompt("Entre your age");
+
+if (evenoradd %= 2){
+	alert("odd")
+}
+ else {
+	alert("even")
+}
