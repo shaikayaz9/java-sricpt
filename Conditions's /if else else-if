@@ -1,0 +1,28 @@
+// condition;s in js
+
+//1. if statement :-
+
+// if (5 <= 10){
+// 	console.log(5<=10)
+// }
+
+
+// 2. if else statement :-
+
+// if (5 <=10){
+// 	console.log(true)
+// } else {
+// 	console.log(false)}
+
+// 3. else if statement :-
+
+let age = 40;
+if (age <=18){
+	console.log("junoir")
+} else if (age >= 50){
+	console.log("senior")
+} else{
+	console.log("middel")
+}
+
+
