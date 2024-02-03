@@ -1,0 +1,7 @@
+let gameNum = 7;
+let userNum = prompt("Guess The number 0 - 10");
+
+while (gameNum != userNum){
+   userNum = prompt("Guess again");
+}
+console.log(gameNum,"congratulation you win !!!")
