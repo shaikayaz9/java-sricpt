@@ -1,0 +1,22 @@
+// sum function
+
+function sum(num1,num2){
+	var x = num1+ num2;
+console.log(x);}
+// min function
+function min(num1,num2){
+	var x = num1 - num2;
+	console.log(x)
+}
+
+// mul function 
+function mul(num1,num2){
+	var z = num1*num2;
+	console.log(z)
+}
+
+// div function
+function mul(num1,num2){
+	var t = num1/num2;
+	console.log(t)
+}
