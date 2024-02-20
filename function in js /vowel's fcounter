@@ -1,0 +1,15 @@
+
+//vowels function's who find how many vowels you have ;
+
+function mystr(str){
+	let count = 0;
+	for ( let val of str){
+		if (val === "a" ||
+			val === "e" ||
+			val === "i" ||
+			val === "o" ||
+			val === "u" 
+			) {count++;}
+	} 
+	console.log(count);
+}
