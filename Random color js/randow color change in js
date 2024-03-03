@@ -14,6 +14,27 @@
 </head>
 <body>
     <button id="myButton">Click me!</button>
-    <script src="script.js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    // DOMContentLoaded event handler function
+    var button = document.getElementById("myButton");
+
+    button.addEventListener("click", function() {
+        // click event handler function
+        var randomColor = getRandomColor();
+        document.body.style.backgroundColor = randomColor;
+    });
+
+    // Function to generate random color
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+});
+</script>
 </body>
 </html>
