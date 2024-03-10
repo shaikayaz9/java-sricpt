@@ -1,0 +1,32 @@
+//rock paper scissors game in js make by ayaz
+let com = Math.floor(Math.random()*3);
+let user = prompt("rock, peper ,sesor");
+let arry = ["rock", "peper", "sesor"]
+
+
+  if (user === arry[com]){
+  	console.log("Drow Match");
+  } 
+
+  else if (user === "rock" && arry[com] === "sesor"){
+  	console.log(`won by user ${user}`)
+  } 
+
+  else if (user === "peper" && arry[com] === "sesor"){
+  	console.log(`won by computer ${arry[com]}`)
+  } 
+  else if (user === "sesor" && arry[com] === "peper"){
+  	console.log(`won by user ${user}`)
+  }  
+  else if (user === "rock" && arry[com] === "peper"){
+  	console.log(`won by computer ${arry[com]}`)
+  }
+  else if (user === "peper" && arry[com] === "rock"){
+  	console.log(`won by user ${user}`)
+  }
+  else if (user === "sesor" && arry[com] === "rock"){
+  	console.log(`won by computer ${arry[com]}`)
+  }
+  
+console.log("user =",user)
+console.log("computer =",arry[com])
