@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+body {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(82, 249, 255), rgb(187, 28, 226));
+
+}
+
+.Calculater {
+    color: aqua;
+    border: 2px solid black;
+    margin: 10px 15px;
+    padding: 10px;
+}
+
+#text-val {
+    height: 50px;
+    width: 240px;
+    font-size: 20px;
+    padding-right: 10px;
+    border: 2px solid black;
+}
+
+.inp {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 5px 0px;
+
+}
+
+.clear {
+
+    font-size: 15px;
+    margin: 0px 0px 0px 5px;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn button {
+    text-align: center;
+    margin: 1px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.btn button:hover {
+    color: red;
+    background-color: antiquewhite;
+}
+
+.clear:hover {
+    color: black;
+    background-color: blueviolet;
+}
