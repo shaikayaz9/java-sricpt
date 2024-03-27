@@ -1,0 +1,77 @@
+// (1) main object that have a data of employe..
+const empoly ={
+    caltax(){
+        console.log("tax rate is 10%" )
+    },
+    caltax2: function (){
+        console.log("tax rate is 40%" )
+    },
+    work: "web develop"
+}
+
+// we are using main object key to other object with he method of .__proto__ =" empoly"
+
+
+const ayaz = {
+    caltax(){
+        console.log("tax rate is 20%")
+    }
+}
+
+//its a final way to atachment one object key use to other with the help of prototype feature in js.
+
+ayaz.__proto__ = empoly;
+
+
+//(2) main class that have a data of cars, we will use it on other cars brand
+
+class toyotacar{
+    constructor(brand,milage){
+        console.log("cars ");
+        this.brand = brand;
+        this.milage = milage;
+    }
+    start(){
+        console.log("car started")
+    }
+    stop(){
+        console.log("car stop")
+    }
+    setbrand(brand){
+        this.brandname = brand;
+    }
+}
+
+// here we are using a class method with ( "new") word that can help to access data form main class.
+
+let bmwcar = new toyotacar("BMW",'45%');
+console.log(bmwcar);
+let apple = new toyotacar("apple",'45%');
+console.log(apple);
+
+
+
+//(3) inheritance of data from parent to child with the help of class (its a OOPs concept in js)
+
+class parent{
+    sleep(){
+        console.log("2 hours");
+    }
+    eat(){
+        console.log("biryani")
+    }
+}
+
+// here we are used extends key word to inheritance parent data to childer .
+
+class children extends parent{};
+class web extends parent{
+    work(){
+        console.log("web developer")
+    }
+}
+
+// here new object that can show original value's
+
+let obg = new children()
+let obg2 = new web()
